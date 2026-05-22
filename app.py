@@ -178,4 +178,4 @@ if __name__ == '__main__':
     # 4. Install Flask: pip install Flask
     # 5. Run from your terminal: python app.py
     # 6. Open your browser to http://127.0.0.1:5000/
-    app.run(debug=True)
+    app.run(host='0.0.0.0', port=5000)
